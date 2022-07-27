@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "paths": {
+          "api/*": [
+              "/src/api/*"
+          ],
+          "utils/*": [
+              "/src/utils/*"
+          ],
+          "handlers/*": [
+              "/src/handlers/*"
+          ],
+          "@/components/*": [
+              "/src/components/*"
+          ],
+          "@/pusher/*": [
+              "/src/pusher/*"
+          ],
+      }
+    },
+    "include": [
+        "./src/**"
+    ],
+    "exclude": [
+      "dist",
+      ".quasar",
+      "node_modules"
+    ]
+  }
